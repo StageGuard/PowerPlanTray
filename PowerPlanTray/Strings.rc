@@ -1,0 +1,119 @@
+// Localized strings for PowerPlanTray
+#pragma code_page(65001)
+#include "resource.h"
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include <windows.h>
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+// English (United States)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_TRAY_TOOLTIP_DEFAULT    "Power Plan"
+    IDS_MENU_STARTUP            "Run at startup"
+    IDS_MENU_REFRESH            "Refresh"
+    IDS_MENU_EXIT               "Exit"
+    IDS_MSG_ALREADY_RUNNING_TITLE "PowerPlanTray"
+    IDS_MSG_ALREADY_RUNNING_TEXT  "PowerPlanTray is already running."
+END
+ 
+// Additional AFK strings per language
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+STRINGTABLE
+BEGIN
+    IDS_MENU_AFK                "AFK Auto Switch"
+    IDS_MENU_AFK_OFF            "Off"
+    IDS_MENU_AFK_TIMEOUT        "AFK Timeout"
+    IDS_MENU_AFK_TARGET         "AFK Target Plan"
+    IDS_MENU_AFK_1MIN           "1 min"
+    IDS_MENU_AFK_5MIN           "5 min"
+    IDS_MENU_AFK_10MIN          "10 min"
+    IDS_MENU_AFK_15MIN          "15 min"
+    IDS_MENU_AFK_30MIN          "30 min"
+    IDS_MENU_AFK_45MIN          "45 min"
+    IDS_MENU_AFK_60MIN          "60 min"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_MENU_AFK                "离开自动切换"
+    IDS_MENU_AFK_OFF            "关闭"
+    IDS_MENU_AFK_TIMEOUT        "离开判定时间"
+    IDS_MENU_AFK_TARGET         "离开时切换到"
+    IDS_MENU_AFK_1MIN           "1 分钟"
+    IDS_MENU_AFK_5MIN           "5 分钟"
+    IDS_MENU_AFK_10MIN          "10 分钟"
+    IDS_MENU_AFK_15MIN          "15 分钟"
+    IDS_MENU_AFK_30MIN          "30 分钟"
+    IDS_MENU_AFK_45MIN          "45 分钟"
+    IDS_MENU_AFK_60MIN          "60 分钟"
+END
+
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_MENU_AFK                "離開自動切換"
+    IDS_MENU_AFK_OFF            "關閉"
+    IDS_MENU_AFK_TIMEOUT        "離開判定時間"
+    IDS_MENU_AFK_TARGET         "離開時切換到"
+    IDS_MENU_AFK_1MIN           "1 分鐘"
+    IDS_MENU_AFK_5MIN           "5 分鐘"
+    IDS_MENU_AFK_10MIN          "10 分鐘"
+    IDS_MENU_AFK_15MIN          "15 分鐘"
+    IDS_MENU_AFK_30MIN          "30 分鐘"
+    IDS_MENU_AFK_45MIN          "45 分鐘"
+    IDS_MENU_AFK_60MIN          "60 分鐘"
+END
+
+LANGUAGE LANG_JAPANESE, SUBLANG_JAPANESE_JAPAN
+STRINGTABLE
+BEGIN
+    IDS_MENU_AFK                "離席時の自動切り替え"
+    IDS_MENU_AFK_OFF            "オフ"
+    IDS_MENU_AFK_TIMEOUT        "離席判定時間"
+    IDS_MENU_AFK_TARGET         "離席時の電源プラン"
+    IDS_MENU_AFK_1MIN           "1 分"
+    IDS_MENU_AFK_5MIN           "5 分"
+    IDS_MENU_AFK_10MIN          "10 分"
+    IDS_MENU_AFK_15MIN          "15 分"
+    IDS_MENU_AFK_30MIN          "30 分"
+    IDS_MENU_AFK_45MIN          "45 分"
+    IDS_MENU_AFK_60MIN          "60 分"
+END
+
+// Chinese (Simplified, PRC)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+STRINGTABLE
+BEGIN
+    IDS_TRAY_TOOLTIP_DEFAULT    "电源计划"
+    IDS_MENU_STARTUP            "随 Windows 启动运行"
+    IDS_MENU_REFRESH            "刷新"
+    IDS_MENU_EXIT               "退出"
+    IDS_MSG_ALREADY_RUNNING_TITLE "PowerPlanTray"
+    IDS_MSG_ALREADY_RUNNING_TEXT  "PowerPlanTray 已在运行。"
+END
+
+// Chinese (Traditional, Taiwan)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+STRINGTABLE
+BEGIN
+    IDS_TRAY_TOOLTIP_DEFAULT    "電源計劃"
+    IDS_MENU_STARTUP            "隨 Windows 啟動執行"
+    IDS_MENU_REFRESH            "重新整理"
+    IDS_MENU_EXIT               "結束"
+    IDS_MSG_ALREADY_RUNNING_TITLE "PowerPlanTray"
+    IDS_MSG_ALREADY_RUNNING_TEXT  "PowerPlanTray 已在執行。"
+END
+
+// Japanese (Japan)
+LANGUAGE LANG_JAPANESE, SUBLANG_JAPANESE_JAPAN
+STRINGTABLE
+BEGIN
+    IDS_TRAY_TOOLTIP_DEFAULT    "電源プラン"
+    IDS_MENU_STARTUP            "Windows の起動時に実行"
+    IDS_MENU_REFRESH            "更新"
+    IDS_MENU_EXIT               "終了"
+    IDS_MSG_ALREADY_RUNNING_TITLE "PowerPlanTray"
+    IDS_MSG_ALREADY_RUNNING_TEXT  "PowerPlanTray は既に実行中です。"
+END
